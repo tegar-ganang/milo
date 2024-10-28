@@ -16,7 +16,7 @@ st.sidebar.markdown("Riwayat Chat")
 st.title("tanyaPermenKu")
 st.markdown("##### Virtual Assistant untuk Permenkes dengan Retrieval Augmented Generation (RAG)") 
 
-st.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
+st.markdown("<div style='height: 100px;'></div>", unsafe_allow_html=True)
 
 footer = """
     <style>
@@ -33,10 +33,11 @@ footer = """
         align-items: center;
         justify-content: center;
         font-family: Arial, sans-serif;
+        z-index: 9999; /* Ensures footer stays on top */
     }
     .footer p {
         margin: 0;
-        padding-right: 10px; /* Space between text and logo */
+        padding-right: 10px;
     }
     .footer img {
         height: 30px;
